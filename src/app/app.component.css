@@ -6,3 +6,10 @@ section.intro{
   line-height: normal;
   border-radius: 0 0 25% 25%;
 }
+
+section.why_us{
+  background-color: rgb(44, 44, 192);
+  color: white;
+  padding: 4rem;
+  padding-bottom: 0rem;
+}

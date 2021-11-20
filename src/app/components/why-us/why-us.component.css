@@ -1,0 +1,26 @@
+p>strong{
+  font-size: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+.why_us_card{
+  background-color: rgba(43, 43, 122, 0.4) !important;
+  border-radius: 5%;
+}
+.why_us_card>h2{
+  margin-bottom: 0.5rem;
+}
+.why_us_card>p{
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: lighter;
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+a.read_more{
+  margin-top: 2rem;
+  color: white;
+  font-weight: bolder;
+}
+a.read_more:link {
+  text-decoration: none;
+}
