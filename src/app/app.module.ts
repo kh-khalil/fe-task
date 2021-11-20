@@ -13,6 +13,9 @@ import { OurClientsComponent } from './components/our-clients/our-clients.compon
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { IntroComponent } from './components/intro/intro.component';
 import { WhyUsComponent } from './components/why-us/why-us.component';
+import { UsersService } from './be-connection/services/users.service';
+import { HttpClient, HttpClientModule, HttpHandler } from '@angular/common/http';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 @NgModule({
   declarations: [
@@ -30,9 +33,11 @@ import { WhyUsComponent } from './components/why-us/why-us.component';
   ],
   imports: [
     BrowserModule,
-    NoopAnimationsModule
+    NoopAnimationsModule,
+    HttpClientModule,
+    NgxPaginationModule,
   ],
-  providers: [],
+  providers: [HttpClient, UsersService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

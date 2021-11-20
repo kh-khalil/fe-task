@@ -13,3 +13,8 @@ section.why_us{
   padding: 4rem;
   padding-bottom: 0rem;
 }
+
+section.testimonials{
+  padding: 4rem;
+  background-color: skyblue;
+}
