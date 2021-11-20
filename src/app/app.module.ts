@@ -11,6 +11,7 @@ import { TestimonialComponent } from './components/testimonial/testimonial.compo
 import { TeamComponent } from './components/team/team.component';
 import { OurClientsComponent } from './components/our-clients/our-clients.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
+import { IntroComponent } from './components/intro/intro.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ContactUsComponent } from './components/contact-us/contact-us.component
     TestimonialComponent,
     TeamComponent,
     OurClientsComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    IntroComponent
   ],
   imports: [
     BrowserModule,
